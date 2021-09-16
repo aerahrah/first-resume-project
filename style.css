@@ -7,6 +7,7 @@
 }
 body{
   background-color: #171717;
+  height: auto;
 }
 p{
   text-align: justify;
@@ -49,13 +50,16 @@ li{
   background-color: #DDDDDD;
   color: #171717;
   padding: 1.5rem 3rem 3rem;
+  padding-bottom: 10rem;
 }
 .Personal{
   display: grid;
   align-items: flex-start;
+  padding-bottom: 10rem;
 }
 .container{
   padding:0;
+
 }
 .items{
   padding: 3rem 3rem 0;
@@ -67,6 +71,7 @@ li{
 }
 .row{
   margin:0;
+
 }
 .black{
   background-color: black;
