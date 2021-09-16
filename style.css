@@ -5,10 +5,8 @@
   margin: 0px;
   padding: 0;
 }
-
 body{
   background-color: #171717;
-
 }
 p{
   text-align: justify;
@@ -32,9 +30,14 @@ h6, h4{
   font-family: 'Poppins', sans-serif;
 }
 h4{
+  text-transform: uppercase;
   font-size: 1.7rem;
 }
+ul{
+    padding-left: 3rem;
+}
 li{
+
   color: #171717;
 }
 .img{
@@ -42,6 +45,7 @@ li{
   justify-content: center;
 }
 .content{
+
   background-color: #DDDDDD;
   color: #171717;
   padding: 1.5rem 3rem 3rem;
@@ -58,14 +62,22 @@ li{
   text-align: justify;
 }
 .item-list{
+  margin-top: 1.1rem;
   margin-bottom: 1.5rem;
 }
 .row{
   margin:0;
 }
-.hr-white{
+.black{
   background-color: black;
   height: 1.5px;
+}
+.black-text{
+  color: black;
+  line-height: 1.2rem;
+}
+.educ{
+  color: black;
 }
 @media (min-width: 300px){
       .container{
